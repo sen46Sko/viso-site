@@ -1,0 +1,45 @@
+.headerBlur {
+  backdrop-filter: blur(4px);
+  width: 100%;
+  height: 92px;
+  position: fixed;
+}
+
+.headerBg {
+  background-color: #0f0f0f;
+  width: 100%;
+  height: 92px;
+  position: fixed;
+}
+
+.header {
+  width: 100%;
+  height: 92px;
+  padding-inline: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.navigation {
+  display: flex;
+  gap: 90px;
+  color: #fbfbf9;
+}
+
+.contactUs {
+  color: #fbfbf9;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #000000 0deg,
+    #736862 104.4deg,
+    rgba(0, 0, 0, 0) 360deg
+  );
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 106px;
+  height: 35px;
+}

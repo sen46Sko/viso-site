@@ -1,0 +1,32 @@
+.animationContainer {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+}
+
+.topBlock {
+  background-color: black;
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  top: 0;
+}
+
+.bottomBlock {
+  background-color: black;
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  bottom: 0;
+}
+
+.loader {
+  height: 1px;
+  width: 100vw;
+  position: absolute;
+  top: 50vh;
+  left: -100vw;
+  background-color: white;
+}

@@ -1,0 +1,73 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/Header/Header.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Header_header__MwWvM {
+  background-color: #0f0f0f;
+  width: 100%;
+  height: 92px;
+  padding-inline: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: -90px;
+}
+
+.Header_navigation__57bfi {
+  display: flex;
+  gap: 90px;
+  color: #fbfbf9;
+}
+
+.Header_contactUs__pnJH_ {
+  color: #fbfbf9;
+  background: conic-gradient(from 180deg at 50% 50%, #000000 0deg, #736862 104.4deg, rgba(0, 0, 0, 0) 360deg);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 106px;
+  height: 35px;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/InitialPageLoading/InitialPageLoading.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.InitialPageLoading_animationContainer__d_Yib {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+}
+
+.InitialPageLoading_topBlock__ONvLc {
+  background-color: black;
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  top: 0;
+}
+
+.InitialPageLoading_bottomBlock__J1Xbf {
+  background-color: black;
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  bottom: 0;
+}
+
+.InitialPageLoading_loader__K5WuT {
+  height: 1px;
+  width: 100vw;
+  position: absolute;
+  top: 50vh;
+  left: -100vw;
+  background-color: white;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/app/page.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_home__LW_lH {
+  height: 300vh;
+  background-color: white;
+}
