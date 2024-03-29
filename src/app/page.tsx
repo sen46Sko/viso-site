@@ -1,32 +1,38 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { Raleway } from 'next/font/google';
 
-import { getTitle } from '@/api/title';
+import { FlipCard } from '@/components/FlipCard';
 import { Header } from '@/components/Header';
-// import { HeaderBlur } from '@/components/HeaderBlur';
 import { InitialPageLoading } from '@/components/InitialPageLoading';
 
 import styles from './page.module.scss';
 
+const raleway = Raleway({ weight: ['400', '500'], subsets: ['latin'] });
+
 export default function Home() {
-  const [title, setTitle] = useState('');
+  // const [title, setTitle] = useState('');
 
-  useEffect(() => {
-    getTitle().then((res) => {
-      console.log(res);
+  // useEffect(() => {
+  //   getTitle().then((res) => {
+  //     console.log(res);
 
-      setTitle(res);
-    });
-  }, []);
+  //     setTitle(res);
+  //   });
+  // }, []);
 
   return (
-    <main className={styles.home}>
+    <main className={styles.home + ' ' + raleway.className}>
       <Header />
-      {/* <HeaderBlur /> */}
-      <div style={{ backgroundColor: '#eeeeee', height: 'calc(100vh - 90px)' }}>
-        {/* <div style={{ backgroundColor: '#eeeeee', height: '100vh' }}> */}
-        {/* <h1 style={{ textAlign: 'center', fontSize: 40 }}>{title}</h1> */}
+      <div
+        style={{
+          height: 'calc(100vh - 90px)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <FlipCard />
       </div>
       <div style={{ backgroundColor: '#124076', height: '100vh' }}>
         <p>
